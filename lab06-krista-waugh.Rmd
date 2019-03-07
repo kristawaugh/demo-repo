@@ -26,8 +26,6 @@ calvisitor-10-105-150-86:demo-repo kristawaugh$ git status
 
 calvisitor-10-105-150-86:demo-repo kristawaugh$ git push origin master
 
-calvisitor-10-105-150-86:demo-repo kristawaugh$ git commit -m "second commit?"
-
 calvisitor-10-105-150-86:demo-repo kristawaugh$ git status
 
 calvisitor-10-105-150-86:demo-repo kristawaugh$ git remote -v
@@ -35,3 +33,38 @@ calvisitor-10-105-150-86:demo-repo kristawaugh$ git remote -v
 calvisitor-10-105-150-86:demo-repo kristawaugh$ git push origin master
 
 krista 
+
+```{r eval=FALSE}
+echo "# Demo Repo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/gastonstat/demo-repo.git
+git push -u origin master
+```
+
+```{r eval = FALSE}
+cd desktop
+mkdir demo-repo
+cd demo-repo
+git init
+```
+
+```{r eval = FALSE}
+echo "# Demo Repo" >> README.md
+git status
+git add README.md 
+git status 
+git commit -m "first commmit"
+```
+
+```{r eval = FALSE}
+git remote add origin https://github.com/username/demo-repo.git
+git remote -v
+```
+
+```{r eval =FALSE}
+git status 
+git push origin master 
+```
+
