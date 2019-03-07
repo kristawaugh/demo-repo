@@ -16,34 +16,22 @@ Changes to be committed:
 	new file:   README.md
 
 calvisitor-10-105-150-86:demo-repo kristawaugh$ git commit -m "first commit"
-[master (root-commit) cabe46c] first commit
- 1 file changed, 1 insertion(+)
- create mode 100644 README.md
+
 calvisitor-10-105-150-86:demo-repo kristawaugh$ git status
-On branch master
-nothing to commit, working tree clean
+
 calvisitor-10-105-150-86:demo-repo kristawaugh$ git remote add origin https://github.com/kristawaugh/demo-repo.git
 calvisitor-10-105-150-86:demo-repo kristawaugh$ git remote -v
-origin	https://github.com/kristawaugh/demo-repo.git (fetch)
-origin	https://github.com/kristawaugh/demo-repo.git (push)
+
 calvisitor-10-105-150-86:demo-repo kristawaugh$ git status
-On branch master
-nothing to commit, working tree clean
+
 calvisitor-10-105-150-86:demo-repo kristawaugh$ git push origin master
-Counting objects: 3, done.
-Writing objects: 100% (3/3), 230 bytes | 230.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/kristawaugh/demo-repo.git
- * [new branch]      master -> master
+
 calvisitor-10-105-150-86:demo-repo kristawaugh$ git commit -m "second commit?"
-On branch master
-nothing to commit, working tree clean
+
 calvisitor-10-105-150-86:demo-repo kristawaugh$ git status
-On branch master
-nothing to commit, working tree clean
+
 calvisitor-10-105-150-86:demo-repo kristawaugh$ git remote -v
-origin	https://github.com/kristawaugh/demo-repo.git (fetch)
-origin	https://github.com/kristawaugh/demo-repo.git (push)
+
 calvisitor-10-105-150-86:demo-repo kristawaugh$ git push origin master
-Everything up-to-date
+
 calvisitor-10-105-150-86:demo-repo kristawaugh$ 
