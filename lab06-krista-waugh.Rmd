@@ -34,3 +34,4 @@ calvisitor-10-105-150-86:demo-repo kristawaugh$ git remote -v
 
 calvisitor-10-105-150-86:demo-repo kristawaugh$ git push origin master
 
+krista 
